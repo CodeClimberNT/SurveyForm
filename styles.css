@@ -1,7 +1,92 @@
-body{
-    font-weight: bolder;
+body {
+    font-size: larger;
+    font-family: serif;
+    padding: 1.5vh 10vw 0 10vw;
+    background-color: #9a77c9;
+    color: #fff;
+    margin: 0;
 }
+
+#title,
+#description {
+    text-align: center;
+    font-weight: unset;
+}
+
+#title {
+    margin-bottom: 0.3rem;
+}
+
+#description {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px black;
+}
+
+form {
+    padding: 2rem 3vw;
+    background-color: #2a1c3bc2;
+    border-radius: 0.3em;
+}
+
+fieldset{
+    border:0; 
+}
+
 span.weak {
     font-weight: lighter;
-    font-size: smaller;
+    font-size: 12px;
+}
+
+label {
+    margin: 1em 0;
+}
+
+input,
+select,
+textarea,
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    height: 2rem;
+    font-family: sans-serif;
+}
+
+.inline {
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    margin: 0.1rem 0;
+}
+
+option :first-child{
+    color:gray;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 2.5em;
+    font-size: 18px;
+    border:0;
+    border-radius: 0.2em;
+    color: white;
+    background-color: #37af65;
 }
