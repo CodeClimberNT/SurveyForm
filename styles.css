@@ -1,0 +1,7 @@
+body{
+    font-weight: bolder;
+}
+span.weak {
+    font-weight: lighter;
+    font-size: smaller;
+}
