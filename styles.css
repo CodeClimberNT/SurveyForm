@@ -90,3 +90,15 @@ input[type="submit"] {
     color: white;
     background-color: #37af65;
 }
+#survey-form{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#reference{
+    border-style: dashed;
+    padding: 2px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}
